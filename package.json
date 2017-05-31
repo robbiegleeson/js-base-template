@@ -38,7 +38,8 @@
   "keywords": [
     "node",
     "npm",
-    "es6"
+    "es6",
+    "js-base-template"
   ],
   "bin": {
     "getme": "./dist/index.js"
@@ -56,12 +57,7 @@
   "license": "MIT",
   "dependencies": {
     "babel-polyfill": "^6.23.0",
-    "chalk": "^1.1.3",
-    "commander": "^2.9.0",
-    "node-emoji": "^1.4.3",
-    "ora": "^1.2.0",
-    "request": "^2.79.0",
-    "speedtest-net": "^1.2.11"
+    "chalk": "^1.1.3"
   },
   "bugs": {
     "url": "https://github.com/robbiegleeson/js-base-template/issues",
