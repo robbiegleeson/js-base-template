@@ -1,7 +1,7 @@
 import 'babel-polyfill';
 
-async function test() {
+async function runTest() {
   console.log('Hello, world!');
 }
 
-test();
+runTest();
