@@ -45,7 +45,11 @@
   },
   "babel": {
     "presets": [
-      "es2015"
+      "es2015-node6/object-rest"
+    ],
+    "plugins": [
+      "syntax-async-functions",
+      "transform-regenerator"
     ]
   },
   "preferGlobal": true,
@@ -65,7 +69,10 @@
   },
   "devDependencies": {
     "babel-cli": "^6.18.0",
+    "babel-plugin-syntax-async-functions": "^6.13.0",
+    "babel-plugin-transform-regenerator": "^6.24.1",
     "babel-preset-es2015": "^6.18.0",
+    "babel-preset-es2015-node6": "^0.4.0",
     "chai": "^3.5.0",
     "coveralls": "^2.11.15",
     "eslint": "^3.12.2",
